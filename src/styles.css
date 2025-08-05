@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #e6def9;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+}
+
+body{
+  gap: 30vh;
+  border: 50px solid #f7cb98;
+  padding: 50px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f3def9;
+}
+
+#content{
+    border: 10px solid rgb(191, 193, 222);
+    background-color: rgb(217, 250, 243);
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item_container{
+    display: flex;
+    width: 100%;
+    gap: 2%;
+}
+
+.food_image{
+    width: 25%;
+    height: auto; /* make it fill the row */
+    object-fit: contain; /* or 'cover' if you want it to crop */
+}
+
+.text_container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.title_container{
+    display: flex;
+    justify-content: center;
+}
+
+.description_container{
+    display: flex;
+    padding: 5%;
+}
+
+.title{
+    font-family: 'Georgia', 'Courier New', Courier, monospace;
+    font-size: 200%;
+}
+.description{
+    font-family: "Trebuchet MS", 'Georgia', 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
